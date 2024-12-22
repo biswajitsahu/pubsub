@@ -20,4 +20,13 @@ public class Event {
         this.type = type;
         this.data = data;
     }
+
+    @Override
+    public String toString() {
+        return "Event{" +
+                "id='" + id + '\'' +
+                ", type='" + type + '\'' +
+                ", data='" + data + '\'' +
+                '}';
+    }
 }
