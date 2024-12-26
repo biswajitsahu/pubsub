@@ -1,15 +1,13 @@
-package org.skylo.svc1;
+package org.skylo.svc2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@EnableFeignClients
-public class Svc1Application {
+public class Svc2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Svc1Application.class, args);
+		SpringApplication.run(Svc2Application.class, args);
 	}
 
 }

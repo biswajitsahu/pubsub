@@ -1,10 +1,10 @@
-package org.skylo.svc1;
+package org.skylo.svc2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Svc1ApplicationTests {
+class Svc2ApplicationTests {
 
 	@Test
 	void contextLoads() {
