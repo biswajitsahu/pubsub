@@ -1,8 +1,7 @@
 Steps to run the setup locally.
 
 1. Clone the repository
-2. 4. 
-3. Go to the parent directory and run the following command to bring up kafka.
+2. Go to the parent directory and run the following command to bring up kafka.
 ```bash
 docker-compose up -d
 ```
